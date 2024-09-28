@@ -14,6 +14,10 @@ server.get("/porta2", (req, ans)=> {
     return ans.json({mensagem: "Porta 2"})
 })
 
+server.get("/porta3", (req, ans)=> {
+    return ans.json({mensagem: "testando o nodemon!!"})
+})
+
 //escutando o server no endereço 3300
 server.listen(3300, ()=> {
     console.log("Server OK")
