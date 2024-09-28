@@ -1,0 +1,6 @@
+[
+    {"id": 1, "nome_filme": "filme genérico", "data_lançamento": "01-jan-2000"},
+    {"id": 2, "nome_filme": "filme mais genérico ainda", "data_lançamento": "01-jan-2000"},
+    {"id": 3, "nome_filme": "filme um pouco menos genérico", "data_lançamento": "01-jan-2000"},
+    {"id": 4, "nome_filme": "filme não-genérico", "data_lançamento": "01-jan-2000"}
+]

@@ -1,6 +1,8 @@
 const express = require("express") //para poder usar o express
 const server = express() //para criar o servidor
 const alunos = require("./src/objetos.json") //busca uma lista de objetos no BD (nesse caso o BD é mocado)
+const filmes = require("./src/filmes.json")
+const series = require("./src/series.json")
 
 //pegando as informações do servidor na porta padrão
 server.get("/", (req, ans)=> {
@@ -17,6 +19,14 @@ server.get("/porta2", (req, ans)=> {
 
 server.get("/objetos", (req, ans)=> {
     return ans.json(alunos)
+})
+
+server.get("/filmes", (req, ans)=> {
+    return ans.json(filmes)
+})
+
+server.get("/series", (req, ans)=> {
+    return ans.json(series)
 })
 
 
